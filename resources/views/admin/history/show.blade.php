@@ -23,7 +23,8 @@
                             <i class="fa-solid fa-download ps-1"></i>
                         </a>
                     </div>
-                    <div class="table-responsive">
+                    @include('admin.karyawan.partials.tabel-jadwal')
+                    <!-- <div class="table-responsive">
                         <table class="table table-bordered table-striped table-hover tabel-data-jadwal" id="datatable">
                             <thead>
                                 <tr>
@@ -121,7 +122,7 @@
                                 @endforeach
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
